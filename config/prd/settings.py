@@ -6,11 +6,11 @@ WSGI_APPLICATION = 'config.prd.app.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': os.environ.get('DB_NAME', 'foialawya'),
         'USER': os.environ.get('DB_USER', 'foialawya'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', ''),
-        'HOST': os.environ.get('DB_HOST', 'psql.example.com'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'foialawya'),
+        'HOST': os.environ.get('DB_HOST', 'localhost'),
     }
 }
 
