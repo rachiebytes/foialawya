@@ -1,8 +1,8 @@
-django==1.11
-psycopg2
 business-calendar==0.2.1
-django-flat-responsive
-django-allauth
-pyyaml
 cryptography
+django==1.11
+django-allauth
+django-flat-responsive
 mysqlclient
+psycopg2
+pyyaml
